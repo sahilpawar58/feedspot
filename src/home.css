@@ -179,3 +179,22 @@
     color: white;background-color: #2e6da4; padding-left: 3rem;padding-right: 3rem;
     padding-top: 0.5rem;padding-bottom: 0.5rem;border-radius: 5px;border: 2px solid #2e6da4;font-size: 15px;margin:0.5rem
 }
+
+@media only screen and (max-width: 1068px) {
+.mainsvg{
+    display: none;
+}
+.svgtable{
+    display: none;
+}
+.firstheading{
+    display: flex;align-items: center;justify-content: center;margin: 0.5rem;font-size: 24px;
+}
+h3{
+    margin: 0.5rem;
+}
+#loader h1{
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+}

@@ -5,6 +5,7 @@ import './home.js';
 import { useEffect } from "react";
 import Preloader from "./Preloader.jsx";
 import HomeHeader from "./Components/Home/HomeHeaders.jsx";
+import Footer from "./Footer.jsx";
 
 export default function Home(){
     useEffect(()=>{
@@ -84,7 +85,7 @@ export default function Home(){
             </div>
             <HomeHeader title="Media Contact Database" subheading="Best for In-House PR teams, PR agencies, and individual Marketers."/>
           <div id="entiresvgtable">
-            <div id="loadingsvg">
+            <div id="loadingsvg" className="mainsvg">
                 <div style={{position: 'relative',width: '100%',height: '100%'}}>
                     <div className="companyimage instagram"><img src="./src/assets/instagram.png"/></div>
                     <div className="companyimage google"><img src="./src/assets/spotify.png"/></div>
@@ -136,7 +137,7 @@ export default function Home(){
           <br></br>
           <HomeHeader title="For Publishers" subheading="Best for bloggers, podcasters, youtubers, publishers and Influencers"/>
           <div id="entiresvgtable">
-            <div id="loadingsvg">
+            <div id="loadingsvg" className="mainsvg">
                 <div style={{position: 'relative',width: '100%',height: '100%'}}>
                     <div className="companyimage instagram"><img src="./src/assets/instagram.png"/></div>
                     <div className="companyimage google"><img src="./src/assets/spotify.png"/></div>
@@ -186,11 +187,16 @@ export default function Home(){
             </div>
           </div>
           </div>
+          
         </div>
-
         
+       
          </div>
+         
         </div>
+        <br />
+        <br />
+        <Footer />
         </>
     )
 }

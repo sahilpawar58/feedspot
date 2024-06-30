@@ -8,6 +8,7 @@ import SignUp from './SignUp.jsx';
 import Home from './Home.jsx';
 import { AnimatePresence } from 'framer-motion';
 import Preloader from './Preloader.jsx';
+import Footer from './Footer.jsx';
 
 
 const App = () => {
@@ -16,10 +17,15 @@ const App = () => {
     <Navbar />
     <AnimatePresence mode="wait">
     <Routes location={location} key={location.pathname}>
-      <Route index element={<Home/>}></Route>
+      <Route index element={
+        <>
+        <Home />
+        
+        </>
+      }></Route>
       <Route path="/about" element={<About/>}/>
       <Route path="/signup" element={<SignUp/>}/>
-      <Route path="/pre" element={<Preloader />} />
+      <Route path="/pre" element={<Footer />} />
     </Routes>
     </AnimatePresence>
     </>
