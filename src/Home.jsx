@@ -87,9 +87,9 @@ export default function Home(){
           <div id="entiresvgtable">
             <div id="loadingsvg" className="mainsvg">
                 <div style={{position: 'relative',width: '100%',height: '100%'}}>
-                    <div className="companyimage instagram"><img src="./src/assets/instagram.png"/></div>
-                    <div className="companyimage google"><img src="./src/assets/spotify.png"/></div>
-                    <div className="companyimage spotify"><img src="./src/assets/playstore.png"/></div>
+                    <div className="companyimage instagram"><img src="http://res.cloudinary.com/dubr8odt7/image/upload/v1719756794/Feedspot/uy1uvo3cntsdvkyqwg9j.png"/></div>
+                    <div className="companyimage google"><img src="https://res.cloudinary.com/dubr8odt7/image/upload/v1719756795/Feedspot/stj6avbu686caqwdgy7k.png"/></div>
+                    <div className="companyimage spotify"><img src="http://res.cloudinary.com/dubr8odt7/image/upload/v1719756794/Feedspot/e2bvcwpnb9cwjev5jbei.png"/></div>
               
                     
                     <svg className="svgholder" width="100%" height="100%" viewBox="0 0 200 113" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,13 +117,13 @@ export default function Home(){
 
                         
                     </svg>
-                    <div className="database"><img src="./src/assets/database.png"/></div>
+                    <div className="database"><img src="http://res.cloudinary.com/dubr8odt7/image/upload/v1719756793/Feedspot/mdpuivplrsegboceudul.png"/></div>
                     
                 </div>
                 
             </div>
               
-            <img className="svgtable" src="./src/assets/demo.svg" />
+            <img className="svgtable" src="http://res.cloudinary.com/dubr8odt7/image/upload/v1719757729/Feedspot/m5mybftslzuucgficzye.svg" />
             <div className="descservice">
               <ul>
                 <li>Export Bloggers, Podcasters, YouTubers media contact lists.</li>
@@ -139,9 +139,9 @@ export default function Home(){
           <div id="entiresvgtable">
             <div id="loadingsvg" className="mainsvg">
                 <div style={{position: 'relative',width: '100%',height: '100%'}}>
-                    <div className="companyimage instagram"><img src="./src/assets/instagram.png"/></div>
-                    <div className="companyimage google"><img src="./src/assets/spotify.png"/></div>
-                    <div className="companyimage spotify"><img src="./src/assets/playstore.png"/></div>
+                    <div className="companyimage instagram"><img src="http://res.cloudinary.com/dubr8odt7/image/upload/v1719756794/Feedspot/uy1uvo3cntsdvkyqwg9j.png"/></div>
+                    <div className="companyimage google"><img src="https://res.cloudinary.com/dubr8odt7/image/upload/v1719756795/Feedspot/stj6avbu686caqwdgy7k.png"/></div>
+                    <div className="companyimage spotify"><img src="http://res.cloudinary.com/dubr8odt7/image/upload/v1719756794/Feedspot/e2bvcwpnb9cwjev5jbei.png"/></div>
               
                     
                     <svg className="svgholder" width="100%" height="100%" viewBox="0 0 200 113" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,13 +169,13 @@ export default function Home(){
 
                         
                     </svg>
-                    <div className="database"><img src="./src/assets/docicon.png"/></div>
+                    <div className="database"><img src="http://res.cloudinary.com/dubr8odt7/image/upload/v1719756793/Feedspot/gvggo2rjdrsks4fao4et.png"/></div>
                     
                 </div>
                 
             </div>
               
-            <img className="svgtable" src="./src/assets/influencer.svg" />
+            <img className="svgtable" src="http://res.cloudinary.com/dubr8odt7/image/upload/v1719756794/Feedspot/ggfwe7qwpiv6xreuisr7.svg" />
             <div className="descservice">
               <ul>
                 <li>Promote your site and be found. Our Branding features are designed to give your site more visibility and leads</li>
