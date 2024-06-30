@@ -28,6 +28,8 @@ html {
 }
 .logo{
   margin-left: 10px;
+  font-size: x-large;
+  font-family: "Old Standard TT";
 }
 .navbar .buttons{
  right: 0;
@@ -124,9 +126,7 @@ a{
   height: 3.5rem;
 }
 
-.logo{
-  font-size: x-large;
-}
+
 @media only screen and (max-width: 1068px) {
   .navbar .buttons{
     padding-right: 1rem;
